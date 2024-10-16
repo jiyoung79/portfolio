@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Lora:ital,wght@0,400..700;1,400..700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.dashboard {
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 100vw;
+   height: 700px;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.dashboard::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-color: rgba(0, 0, 0, 0.5); /* 검정색 반투명 배경 */
+   z-index: -1;
+}
+
+.dashboard::after {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-image: url('/src/images/dashboard.jpg');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   z-index: -2;
+}
+
+.dashboard .title {
+   font-family: 'Do Hyeon', sans-serif;
+   font-size: 40px;
+   color: white;
+   text-align: center;
+   position: relative;
+   top: -90px;
+}
+
+.dashboard .title h1 {
+   margin: 0;
+   position: relative;
+}
+
+.dashboard .middle_line {
+   position: relative;
+   width: 400px;
+   height: 5px;
+   border-bottom: 5px solid green;
+   margin: 0 auto;
+   top: -50px;
+}
+
+.dashboard .sub {
+   position: relative;
+   text-align: center;
+   color: white;
+   font-size: 30px;
+}
+
+.dashboard .sub p {
+   margin: 0;
+   margin-bottom: 15px;
+}
+
+.dashboard button {
+   position: relative;
+   top: 30px;
+   width: 200px;
+   height: 70px;
+   border-radius: 30px;
+   background-color: rgb(26, 171, 26);
+   border: rgb(26, 171, 26);
+   cursor: pointer;
+   font-size: 25px;
+   font-family: 'PT Sans', sans-serif;
+}
+
+.dashboard button:hover {
+   background-color: green;
+   transition: 0.3s;
+}

@@ -1,0 +1,98 @@
+.archiving {
+   width: 100vw;
+   height: 800px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: rgb(150, 149, 149);
+}
+
+.archiving .title {
+   text-align: center;
+   font-family: 'PT Sans', sans-serif;
+   font-size: 60px;
+   margin-bottom: 50px;
+}
+
+.archiving .middle_line {
+   position: relative;
+   width: 280px;
+   height: 5px;
+   border-bottom: 5px solid green;
+   margin: 0 auto;
+   top: -50px;
+}
+
+.archiving-content {
+   display: flex;
+   gap: 100px; /* 두 요소 사이의 간격 */
+}
+
+.archv-wrapper {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.archv-title {
+   margin-bottom: 30px; /* 박스와 제목 사이의 간격 조절 */
+   font-size: 50px;
+   text-align: center;
+   font-family: 'PT Sans', sans-serif;
+}
+
+.github_archv, 
+.notion_archv {
+   width: 700px;
+   height: 400px;
+   border: 1px solid #ccc; /* 테두리 추가 (선택 사항) */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 30px;
+   background-color: white;
+   flex-direction: column;
+   text-decoration: none; 
+   transition: transform 0.3s ease; 
+   box-shadow: 20px 20px 28px rgba(0, 0, 0, 0.4);
+}
+
+.github_archv:hover, .notion_archv:hover{
+    transform: scale(1.1);
+}
+
+.github_img {
+    width: 500px;
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
+
+
+.notion_img {
+    width: 500px;
+    margin-top: -50px;
+    margin-bottom: 20px;
+
+}
+
+.github_archv p,
+.notion_archv p {
+   text-align: start; 
+   margin: 0;
+   font-size: 25px;
+   color: black;
+   font-weight: bold;
+}
+
+@media (max-width: 900px) {
+   .archiving-content {
+      flex-direction: column;
+      gap: 20px; 
+   }
+
+   .github_archv,
+   .notion_archv {
+      width: 700px; 
+      max-width: 700px; 
+   }
+}
