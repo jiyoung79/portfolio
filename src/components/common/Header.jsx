@@ -1,8 +1,13 @@
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
 import './css/Header.style.css';
 
-export default function Header() {
+export default function Header({
+   scrollToDashboard,
+   scrollToAboutMe,
+   scrollToSkills,
+   scrollToArchiving,
+   scrollToProjects,
+}) {
    const [isModalOpen, setIsModalOpen] = useState(false);
 
    const toggleModal = () => {
@@ -11,9 +16,9 @@ export default function Header() {
 
    return (
       <header className='header'>
-         <Link to='/' className='header_name'>
+         <a href='#' className='header_name'>
             KJY's PortFolio
-         </Link>
+         </a>
          <button className='modal_btn' onClick={toggleModal}>
             <div></div>
             <div></div>
@@ -21,18 +26,38 @@ export default function Header() {
          </button>
          <div className={`modal ${isModalOpen ? 'slide-in' : ''}`}>
             <ul>
-               <Link to='/'>
-                  <li>About Me</li>
-               </Link>
-               <Link to='/'>
-                  <li>Skills</li>
-               </Link>
-               <Link to='/'>
-                  <li>Archiving</li>
-               </Link>
-               <Link to='/'>
-                  <li>Projects</li>
-               </Link>
+               <li
+                  onClick={() => {
+                     console.log('About Me clicked');
+                     scrollToAboutMe();
+                  }}
+                  className='cursor'>
+                  About Me
+               </li>
+               <li
+                  onClick={() => {
+                     console.log('Skills clicked');
+                     scrollToSkills();
+                  }}
+                  className='cursor'>
+                  Skills
+               </li>
+               <li
+                  onClick={() => {
+                     console.log('Archiving clicked');
+                     scrollToArchiving();
+                  }}
+                  className='cursor'>
+                  Archiving
+               </li>
+               <li
+                  onClick={() => {
+                     console.log('Projects clicked');
+                     scrollToProjects();
+                  }}
+                  className='cursor'>
+                  Projects
+               </li>
             </ul>
          </div>
       </header>

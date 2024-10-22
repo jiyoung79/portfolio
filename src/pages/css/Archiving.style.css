@@ -1,6 +1,6 @@
 .archiving {
    width: 100vw;
-   height: 800px;
+   height: 900px;
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -84,7 +84,7 @@
    font-weight: bold;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
    .archiving-content {
       flex-direction: column;
       gap: 20px; 
@@ -94,5 +94,8 @@
    .notion_archv {
       width: 700px; 
       max-width: 700px; 
+   }
+   .archiving{
+    height: 1500px;
    }
 }

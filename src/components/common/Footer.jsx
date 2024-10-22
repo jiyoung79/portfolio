@@ -6,17 +6,7 @@ export default function Footer() {
    return (
       <footer className='footer'>
          <div className='footer-content'>
-            <div className='social-icons'>
-               <Link to='#' aria-label='Instagram'>
-                  <FaInstagram className='icon' />
-               </Link>
-               <Link to='#' aria-label='Facebook'>
-                  <FaFacebook className='icon' />
-               </Link>
-               <Link to='#' aria-label='Twitter'>
-                  <FaTwitter className='icon' />
-               </Link>
-            </div>
+            <p>© 2024. Kang Ji yeong. All rights reserved.</p>
          </div>
       </footer>
    );
