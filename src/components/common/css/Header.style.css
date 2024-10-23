@@ -1,16 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Material+Icons');
-
 /* 기본 header 스타일 */
 .header {
    width: 100%;
    height: 120px;
-   /* background-color: white; */
-   border-bottom: 1px solid black;
-   position: fixed;
-   background-color: white;
+   border-bottom: 5px solid green;
+   position: fixed; /* 항상 상단에 고정 */
    top: 0;
    left: 0;
-   z-index: 1000;
+   z-index: 1000; /* 다른 요소와 겹치지 않도록 설정 */
+   background-color: white;
+   
 }
 
 .header_name {
@@ -42,18 +40,16 @@
    width: 100%;
    height: 2px;
    background-color: black;
-   /* border-radius: 2px; */
    transition: all 0.3s ease-in-out;
 }
 
 .modal {
    position: fixed;
-   top: 121px;
+   top: 121px; /* 헤더 아래에 위치 */
    right: -300px;
    width: 300px;
    height: calc(100% - 120px);
    background-color: white;
-   /* border-left: 1px solid black; */
    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
    transition: right 0.3s ease-in-out;
    z-index: 999;
@@ -73,6 +69,7 @@
    text-decoration: none;
    color: inherit;
 }
+
 .modal li {
    padding: 16px;
    font-size: 18px;
@@ -92,4 +89,9 @@
 
 .modal ul li:hover {
    background-color: #f0f0f0 !important;
+}
+
+/* 스크롤 시 고정된 헤더에 가려지지 않도록 여백 추가 */
+section, h1 {
+   scroll-margin-top: 120px; /* 헤더 높이만큼 여백 */
 }

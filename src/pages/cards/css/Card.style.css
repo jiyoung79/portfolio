@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Material+Icons');
+
+.card {
+   width: 750px;
+   height: 600px;
+   border: 1px solid rgb(205, 203, 203);
+   border-radius: 20px;
+   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+   padding: 40px;
+}
+
+.card .card_title {
+   font-size: 30px;
+   display: flex;
+   width: 230px;
+   height: 30px;
+   border: 1px solid green;
+   padding: 10px;
+   border-radius: 10px;
+   background-color: green;
+}
+
+.card .card_title .title_icon {
+   margin-right: 20px;
+   display: flex;
+   color: white;
+}
+
+.card .card_title p {
+   display: flex;
+   margin-top: -5px;
+   font-weight: bold;
+   font-family: 'PT Sans', sans-serif;
+   color: white;
+}
+
+.card .time {
+   font-size: 20px;
+   color: gray;
+}
+
+.card .line {
+   width: 750px;
+   height: 2px;
+   border-bottom: 2px solid green;
+   position: relative;
+   /* top: -20px; */
+}
+
+.card .summery .introduce {
+   font-size: 22px;
+}
+
+.card .summery .stack {
+   font-size: 24px;
+   font-weight: bold;
+}
+
+.card .summery p .icon_com {
+   font-size: 24px;
+   color: green;
+   margin-right: 10px;
+}
+
+.card .summery li {
+   font-size: 20px;
+   line-height: 15px;
+}
+
+.card .summery li p {
+   margin-left: 25px;
+   color: gray;
+}
+
+.card .summery .check {
+   margin-top: 40px;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+.card .summery .check .icon_list {
+   color: green;
+   margin-right: 10px;
+   font-size: 22px;
+}
+
+.card .summery .url {
+   font-size: 23px;
+   margin-top: 30px;
+}
