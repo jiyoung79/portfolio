@@ -2,12 +2,13 @@
 
 .projects {
    width: 100vw;
-   height: 1150px;
-   border: 1px solid;
+   height: auto;
+   /* border: 1px solid; */
    display: flex;
    flex-direction: column;
    align-items: center;
    padding: 20px;
+   margin-bottom: 20px;
 }
 
 .projects .title {

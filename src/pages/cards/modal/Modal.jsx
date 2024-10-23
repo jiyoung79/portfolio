@@ -95,7 +95,7 @@ export default function Modal({ isOpen, closeModal }) {
                   </div>
                   <div className='b_third'>
                      <h3>📌 Docker-compose</h3>
-                     <p>개발환경, 테스트 로컬 배포, AWS 배포 파일로 분리했습니다.</p>
+                     <p>개발환경, 테스트 로컬 배포, AWS 배포 파일로 분리하였습니다.</p>
                   </div>
                   <div className='b_fourth'>
                      <h3>📌 Dependabot</h3>
