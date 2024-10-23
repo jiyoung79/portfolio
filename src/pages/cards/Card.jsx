@@ -1,10 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../cards/css/Card.style.css';
 import { faList, faComputer } from '@fortawesome/free-solid-svg-icons';
 import { faCircleCheck } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Modal from './modal/Modal'; 
 
 export default function Card_1() {
+   const [isModalOpen, setModalOpen] = useState(false); // 모달 상태 관리
+
+   const openModal = () => setModalOpen(true); // 모달 열기 함수
+   const closeModal = () => setModalOpen(false); // 모달 닫기 함수
+
    return (
       <div className='card'>
          <div className='card_title'>
@@ -16,13 +22,9 @@ export default function Card_1() {
          <div className='summery'>
             <h3 className='introduce'>숙박업소 예약 웹개발 프로젝트</h3>
             <p className='stack'>
-               {' '}
                <FontAwesomeIcon icon={faComputer} className='icon_com' />
                사용 기술 스택
             </p>
-            {/* <li>언어 및 프레임워크: HTML, CSS, JavaScript, Spring Boot, Spring Security, Thymeleaf</li>
-            <li>개발 도구: IntelliJ, Visual Studio Code (VSCode)</li>
-            <li>기타 도구: Docker, Docker Compose, Git, GitHub, Nginx, Apache Tomcat, MySQL</li> */}
             <li>
                숙박업소와 실시간 채팅이 가능한 소켓 통신 기능을 추가하여 개발
                <p>(고객 서비스 향상과 예약 전환율 증가, 데이터 수집 및 분석 기대)</p>
@@ -47,6 +49,10 @@ export default function Card_1() {
                   Stay Connect 배포 사이트 방문하기
                </a>
             </p>
+            <button onClick={openModal} className='modal_button'>
+               프로젝트 세부사항
+            </button>
+            <Modal isOpen={isModalOpen} closeModal={closeModal} />
          </div>
       </div>
    );

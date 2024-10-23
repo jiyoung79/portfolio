@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Material+Icons');
 
 .card {
-   width: 750px;
-   height: 600px;
+   width: 850px;
+   height: 650px;
    border: 1px solid rgb(205, 203, 203);
    border-radius: 20px;
    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
    padding: 40px;
+   margin-top: 30px;
 }
 
 .card .card_title {
@@ -32,6 +33,7 @@
    font-weight: bold;
    font-family: 'PT Sans', sans-serif;
    color: white;
+   font-size: 25px;
 }
 
 .card .time {
@@ -72,6 +74,8 @@
    color: gray;
 }
 
+
+
 .card .summery .check {
    margin-top: 40px;
    font-size: 20px;
@@ -87,4 +91,22 @@
 .card .summery .url {
    font-size: 23px;
    margin-top: 30px;
+}
+
+.modal_button {
+   width: 200px;
+   height: 50px;
+   border-radius: 15px;
+   font-size: 20px;
+   background-color: orange;
+   border: 1px white;
+   font-weight: bold;
+   padding: 10px 20px;
+   cursor: pointer;
+   color: white;
+}
+
+.modal_button:hover {
+  background-color: green;
+  transition: 0.3s ease;
 }
