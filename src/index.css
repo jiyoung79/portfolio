@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  width: 100vw; /* 이 값을 조정하여 크기 조절 */
+  transform-origin: top;
+}

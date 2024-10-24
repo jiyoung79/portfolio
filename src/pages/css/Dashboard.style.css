@@ -8,11 +8,12 @@
    justify-content: center;
    align-items: center;
    width: 100vw;
-   height: 850px;
+   height: 750px;
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
    /* top: 120px; */
+
 }
 
 .dashboard::before {
@@ -40,9 +41,13 @@
    z-index: -2;
 }
 
+.dash_box {
+    margin-top: 100px;
+}
+
 .dashboard .title {
    font-family: 'Do Hyeon', sans-serif;
-   font-size: 40px;
+   font-size: 30px;
    color: white;
    text-align: center;
    position: relative;
@@ -67,7 +72,7 @@
    position: relative;
    text-align: center;
    color: white;
-   font-size: 30px;
+   font-size: 25px;
 }
 
 .dashboard .sub p {
@@ -78,8 +83,8 @@
 .dashboard button {
    position: relative;
    top: 30px;
-   width: 200px;
-   height: 70px;
+   width: 170px;
+   height: 60px;
    border-radius: 30px;
    background-color: rgb(26, 171, 26);
    border: rgb(26, 171, 26);

@@ -24,6 +24,7 @@ export default function Aboutme() {
                   <p>강지영</p>
                </div>
             </div>
+
             <div className='box'>
                <FontAwesomeIcon icon={faCalendarDays} className='icon' />
                <div>
@@ -38,6 +39,7 @@ export default function Aboutme() {
                   <p>서울특별시 금천구</p>
                </div>
             </div>
+
             <div className='box'>
                <FontAwesomeIcon icon={faPhone} className='icon' />
                <div>

@@ -5,25 +5,24 @@
    background-color: white;
    color: black;
    padding: 16px;
-   width: 100%;
+   width: 100vw;
    position: relative;
    bottom: 0;
    left: 0;
    border-top: 5px solid green;
    /* border-bottom: 5px solid green; */
-   height: 80px;
+   height: 40px;
 }
 
 .footer-content {
    display: flex;
    flex-direction: column;
    align-items: center;
-   gap: 16px;
-   line-height: 40px;
+   line-height: 10px;
 }
 
 .footer-content p{
     font-size: 20px;
     font-family: 'PT Sans', sans-serif;
-    /* font-weight: bold; */
+    margin-top: 10px;
 }

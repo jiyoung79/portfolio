@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Material+Icons');
 
 .card {
-   width: 870px !important;
-   height: 680px;
+   width: 600px !important;
+   height: 550px;
    border: 1px solid rgb(205, 203, 203);
    border-radius: 20px;
    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
@@ -13,10 +13,10 @@
 }
 
 .card .card_title {
-   font-size: 30px;
+   font-size: 20px;
    display: flex;
-   width: 230px;
-   height: 30px;
+   width: 170px;
+   height: 20px;
    border: 1px solid green;
    padding: 10px;
    border-radius: 10px;
@@ -24,7 +24,7 @@
 }
 
 .card .card_title .title_icon {
-   margin-right: 20px;
+   margin-right: 10px;
    display: flex;
    color: white;
 }
@@ -33,16 +33,15 @@
 
 .card .card_title p {
    display: flex;
-   margin-top: -5px;
+   margin-top: -4px;
    font-weight: bold;
    font-family: 'PT Sans', sans-serif;
    color: white;
-   font-size: 25px;
-   line-height: 35px;
+   /* line-height: 30px; */
 }
 
 .card .time {
-   font-size: 20px;
+   font-size: 1rem;
    color: gray;
 }
 
@@ -55,22 +54,22 @@
 }
 
 .card .summery .introduce {
-   font-size: 22px;
+   font-size: 20px;
 }
 
 .card .summery .stack {
-   font-size: 24px;
+   font-size: 1.2rem;
    font-weight: bold;
 }
 
 .card .summery p .icon_com {
-   font-size: 24px;
+   font-size: 1.2rem;
    color: green;
    margin-right: 10px;
 }
 
 .card .summery li {
-   font-size: 20px;
+   font-size: 1rem;
    margin-bottom: 10px;
 }
 
@@ -83,27 +82,27 @@
 
 
 .card .summery .check {
-   margin-top: 40px;
-   font-size: 20px;
+   margin-top: 20px;
+   font-size: 1.1rem;
    font-weight: bold;
 }
 
 .card .summery .check .icon_list {
    color: green;
    margin-right: 10px;
-   font-size: 22px;
+   font-size: 1.2rem;
 }
 
 .card .summery .url {
-   font-size: 23px;
+   font-size: 1.2rem;
    margin-top: 30px;
 }
 
 .modal_button {
-   width: 200px;
-   height: 50px;
+   width: 180px;
+   height: 40px;
    border-radius: 15px;
-   font-size: 20px;
+   font-size: 1.2rem;
    background-color: orange;
    border: 1px white;
    font-weight: bold;
