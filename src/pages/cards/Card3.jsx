@@ -23,7 +23,7 @@ export default function Card3() {
             <h3 className='introduce'>리액트를 이용한 H&M 클론코딩</h3>
             <p className='stack'>
                <FontAwesomeIcon icon={faComputer} className='icon_com' />
-               사용 기술 스택
+               주요 개발
             </p>
             <li>기존 H&M 사이트를 클론코딩</li>
             <li>전체상품페이지, 로그인, 상품상세페이지로 구성</li>

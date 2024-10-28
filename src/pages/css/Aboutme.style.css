@@ -17,6 +17,12 @@
    }
 }
 
+@media (max-width: 700px) {
+   .aboutme {
+      height: 1900px;
+   }
+}
+
 .aboutme .title {
    text-align: center;
    font-family: 'PT Sans', sans-serif;

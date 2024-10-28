@@ -23,7 +23,7 @@ export default function Card_1() {
             <h3 className='introduce'>숙박업소 예약 웹개발 프로젝트</h3>
             <p className='stack'>
                <FontAwesomeIcon icon={faComputer} className='icon_com' />
-               사용 기술 스택
+               주요 개발
             </p>
             <li>
                숙박업소와 실시간 채팅이 가능한 소켓 통신 기능을 추가하여 개발

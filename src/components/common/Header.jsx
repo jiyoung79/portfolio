@@ -32,7 +32,7 @@ export default function Header({
    return (
       <header className='header'>
          <a href='#' className='header_name'>
-            KJY's PortFolio
+            Kang's PortFolio
          </a>
          <button className='modal_btn' onClick={toggleModal}>
             <div></div>

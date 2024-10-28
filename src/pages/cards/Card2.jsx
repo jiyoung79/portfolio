@@ -23,13 +23,14 @@ export default function Card2() {
             <h3 className='introduce'>리액트를 이용한 넷플릭스 클론코딩</h3>
             <p className='stack'>
                <FontAwesomeIcon icon={faComputer} className='icon_com' />
-               사용 기술 스택
+               주요 개발
             </p>
             <li>
                기존 넷플릭스 영문 사이트를 클론코딩
                <p>(hook을 이용하여 코드의 재사용, 컴포넌트를 비즈니스 로직과 UI를 분류(코드의 세분화))</p>
                <p>
-                  (state를 사용하여 동적인 데이터를 관리하고, 그 데이터를 기반으로 한 UI의 자동적인 업데이트를 쉽게 처리)                 
+                  (state를 사용하여 동적인 데이터를 관리하고, 그 데이터를 기반으로 한 UI의 자동적인 업데이트를 쉽게
+                  처리)
                </p>
             </li>
             <li>키워드로 영화를 검색할 수 있다.</li>
