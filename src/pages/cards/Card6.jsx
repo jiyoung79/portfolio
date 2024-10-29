@@ -25,10 +25,11 @@ export default function Card6() {
                <FontAwesomeIcon icon={faComputer} className='icon_com' />
                주요 개발
             </p>
-            <li>React를 사용하여 UI와 상태 관리에 중점을 두고 개발하었습니다.</li>
+            <li>섭씨, 화씨 등의 온도 변환 기능과 데이터 로딩 중 로딩 스피너를 추가해 사용자 경험을 개선했습니다.</li>
 
             <li>
-               각 버튼 클릭 시 선택한 값이 콜백 함수를 통해 전달되며 이후 컴퓨터의 랜덤 선택과 결과 비교가 이루어집니다.
+               getCurrentLocation과 OpenWeatherMap API를 통해 사용자의 위치 기반 날씨와 선택된 도시의 날씨를 조회하도록
+               구현했습니다.
             </li>
             <div className='check'>
                <p>
