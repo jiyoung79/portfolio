@@ -22,6 +22,17 @@ export default function Modal2({ isOpen, closeModal }) {
                   </h2>
                   <h3>프론트엔드:</h3>
                   <li>HTML, CSS, JavaScript, Axios, React, ReactRouter, React Hooks, ReactQuery, React Router Dom</li>
+                  <button
+                     className='code'
+                     onClick={() =>
+                        window.open(
+                           'https://github.com/jiyoung79/Netflix_clonecoding.git',
+                           '_blank',
+                           'noopener,noreferrer',
+                        )
+                     }>
+                     소스코드 보러가기
+                  </button>
                </div>
                <div className='second_line'></div>
                <div className='purpose'>
@@ -81,14 +92,14 @@ export default function Modal2({ isOpen, closeModal }) {
                   <h2>💡 느낀점</h2>
                   <p>
                      Netflix 클론 코딩 프로젝트를 1인 개발로 진행하며 리액트 hook과 state를 활용한 프론트엔드 개발
-                     경험을 쌓았습니다. TMDB API를 통해 데이터를 가져오고 useState와 useEffect 같은 리액트 hook을
-                     사용해 비동기 데이터 요청을 관리하며 효율적인 상태 관리를 배웠습니다. Redux를 통해 글로벌 상태를
+                     경험을 쌓았습니다. TMDB API를 통해 데이터를 가져오고 useState와 useEffect 같은 리액트 hook을 사용해
+                     비동기 데이터 요청을 관리하며 효율적인 상태 관리를 배웠습니다. Redux를 통해 글로벌 상태를
                      관리하면서 로딩과 에러 상태를 처리하여 사용자 경험을 개선하는 방법을 익혔습니다. 컴포넌트 단위로
                      UI를 나누어 코드 재사용성과 유지보수성을 높였고 영화 데이터를 필터링하고 정렬해 사용자가 원하는
-                     콘텐츠를 쉽게 찾을 수 있도록 구성했습니다. 복잡한 UI를 다루며 CSS와 반응형 디자인의 필요성을
-                     느꼈고 프로젝트 전반을 혼자 설계하고 개발하면서 인터페이스 설계와 데이터 흐름의 중요성을 다시 한번
-                     배웠습니다. 또한 미완성이지만 꾸준히 개발할 목표와 추가할 사항을 체크하며 1인 개발로서 프로젝트를 체계적이고 효율적으로 관리하는 방법도 경험하게
-                     되었습니다.
+                     콘텐츠를 쉽게 찾을 수 있도록 구성했습니다. 복잡한 UI를 다루며 CSS와 반응형 디자인의 필요성을 느꼈고
+                     프로젝트 전반을 혼자 설계하고 개발하면서 인터페이스 설계와 데이터 흐름의 중요성을 다시 한번
+                     배웠습니다. 또한 미완성이지만 꾸준히 개발할 목표와 추가할 사항을 체크하며 1인 개발로서 프로젝트를
+                     체계적이고 효율적으로 관리하는 방법도 경험하게 되었습니다.
                   </p>
                </div>
             </div>

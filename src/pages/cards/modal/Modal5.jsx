@@ -21,6 +21,17 @@ export default function Modal5({ isOpen, closeModal }) {
                      기술 스택
                   </h2>
                   <p>HTML, CSS, JavaScript, React</p>
+                  <button
+                     className='code'
+                     onClick={() =>
+                        window.open(
+                           'https://github.com/jiyoung79/React_RockPaperScissor.git',
+                           '_blank',
+                           'noopener,noreferrer',
+                        )
+                     }>
+                     소스코드 보러가기
+                  </button>
                </div>
                <div className='second_line'></div>
                <div className='purpose'>
@@ -59,10 +70,10 @@ export default function Modal5({ isOpen, closeModal }) {
                <div className='closing'>
                   <h3>💡 느낀점</h3>
                   <p>
-                     이 프로젝트를 통해 React의 이벤트 처리와 상태 관리의 중요성을 체감했습니다. 콜백 함수를
-                     이해하고 적용하는 과정에서 React가 컴포넌트를 렌더링하는 방식과 이벤트가 동작하는 순서를 명확히
-                     알게 되었습니다. 또한 랜덤 값을 통한 컴퓨터 선택 기능을 구현하며 JavaScript의 다양한 내장 함수
-                     사용법을 더욱 깊이 이해하게 되었습니다.
+                     이 프로젝트를 통해 React의 이벤트 처리와 상태 관리의 중요성을 체감했습니다. 콜백 함수를 이해하고
+                     적용하는 과정에서 React가 컴포넌트를 렌더링하는 방식과 이벤트가 동작하는 순서를 명확히 알게
+                     되었습니다. 또한 랜덤 값을 통한 컴퓨터 선택 기능을 구현하며 JavaScript의 다양한 내장 함수 사용법을
+                     더욱 깊이 이해하게 되었습니다.
                   </p>
                </div>
             </div>

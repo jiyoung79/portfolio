@@ -9,7 +9,8 @@
    padding: 40px;
    margin-top: 30px;
    margin-bottom: 100px;
-   
+   font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
 }
 
 .card .card_title {
@@ -29,8 +30,6 @@
    color: white;
 }
 
-
-
 .card .card_title p {
    display: flex;
    margin-top: -4px;
@@ -41,7 +40,7 @@
 }
 
 .card .time {
-   font-size: 1rem;
+   font-size: 1.2rem;
    color: gray;
 }
 
@@ -58,18 +57,18 @@
 }
 
 .card .summery .stack {
-   font-size: 1.2rem;
+   font-size: 1.3rem;
    font-weight: bold;
 }
 
 .card .summery p .icon_com {
-   font-size: 1.2rem;
+   font-size: 1.4rem;
    color: green;
    margin-right: 10px;
 }
 
 .card .summery li {
-   font-size: 1rem;
+   font-size: 1.2rem;
    margin-bottom: 10px;
 }
 
@@ -79,11 +78,9 @@
    margin-top: 0;
 }
 
-
-
 .card .summery .check {
    margin-top: 20px;
-   font-size: 1.1rem;
+   font-size: 1.3rem;
    font-weight: bold;
 }
 
@@ -112,6 +109,6 @@
 }
 
 .modal_button:hover {
-  background-color: green;
-  transition: 0.3s ease;
+   background-color: green;
+   transition: 0.3s ease;
 }

@@ -38,7 +38,7 @@ export default function Card6() {
             </div>
             <p className='url'>
                <a href='https://weatherpracticeapp.netlify.app/' target='_blank' rel='noopener noreferrer'>
-                  가위바위보 앱 배포 사이트 방문하기
+                  날씨 앱 배포 사이트 방문하기
                </a>
             </p>
             <button onClick={openModal} className='modal_button'>

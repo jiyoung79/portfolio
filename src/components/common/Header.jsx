@@ -14,19 +14,21 @@ export default function Header({
       setIsModalOpen(!isModalOpen);
    };
 
-   // 특정 섹션으로 스크롤할 때 헤더의 높이를 고려해 스크롤 위치를 조정하는 함수
+
    const scrollToSection = (scrollFunction, elementId) => {
       const section = document.getElementById(elementId);
-      const headerHeight = 120; // 고정된 헤더의 높이
+      const headerHeight = 60; 
       if (section) {
-         const offset = section.offsetTop - headerHeight; // 스크롤 위치 조정
-         window.scrollTo({
-            top: offset,
-            behavior: 'smooth', // 부드러운 스크롤
-         });
+         const offset = section.offsetTop - headerHeight;
+         setTimeout(() => {
+            window.scrollTo({
+               top: offset,
+               behavior: 'smooth',
+            });
+         }, 100);
       }
-      scrollFunction(); // 스크롤을 트리거하는 콜백 실행
-      setIsModalOpen(false); // 메뉴 클릭 후 모달 닫기
+      scrollFunction(); 
+      setIsModalOpen(false); 
    };
 
    return (

@@ -21,6 +21,13 @@ export default function Modal4({ isOpen, closeModal }) {
                      기술 스택
                   </h2>
                   <p>HTML, CSS, JavaScript, React, ReactRouter, React Router Dom</p>
+                  <button
+                     className='code'
+                     onClick={() =>
+                        window.open('https://github.com/jiyoung79/portfolio.git', '_blank', 'noopener,noreferrer')
+                     }>
+                     소스코드 보러가기
+                  </button>
                </div>
                <div className='second_line'></div>
                <div className='purpose'>

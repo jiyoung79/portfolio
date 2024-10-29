@@ -22,6 +22,17 @@ export default function Modal3({ isOpen, closeModal }) {
                   </h2>
                   <h3>프론트엔드:</h3>
                   <li>HTML, CSS, JavaScript, Axios, React, ReactRouter, React Router Dom</li>
+                  <button
+                     className='code'
+                     onClick={() =>
+                        window.open(
+                           'https://github.com/jiyoung79/H-M-Clone-coding.git',
+                           '_blank',
+                           'noopener,noreferrer',
+                        )
+                     }>
+                     소스코드 보러가기
+                  </button>
                </div>
                <div className='second_line'></div>
                <div className='purpose'>
@@ -84,12 +95,12 @@ export default function Modal3({ isOpen, closeModal }) {
                   <h2>💡 느낀점</h2>
                   <p>
                      H&M 클론 코딩 프로젝트는 리액트를 처음 사용한 클론 코딩 프로젝트로 기초적인 리액트 구조와 Redux를
-                     통한 전역 상태 관리에 집중하며 많은 것을 배웠습니다. 제품 관리와 비동기 API 호출을 위해
-                     Redux와 thunk를 활용하면서 데이터의 흐름을 통제하는 법과 비동기 처리를 안정적으로 구현하는 것을
-                     배우고 적용시켜보았습니다. 그리고 로그인/로그아웃 기능 구현을 통해 사용자 인증을 경험하면서 제품
-                     상세 페이지에 접근을 제한하는 인증 로직을 적용해 보안의 중요성도 실감할 수 있었습니다. 다양한
-                     컴포넌트 간의 데이터를 연결하며 리액트의 컴포넌트 구조와 Redux 상태 관리의 조화를 이해하게 되었고
-                     UI 스타일링과 반응형 디자인을 통해 사용자 경험을 개선하는 방법을 익혔습니다.
+                     통한 전역 상태 관리에 집중하며 많은 것을 배웠습니다. 제품 관리와 비동기 API 호출을 위해 Redux와
+                     thunk를 활용하면서 데이터의 흐름을 통제하는 법과 비동기 처리를 안정적으로 구현하는 것을 배우고
+                     적용시켜보았습니다. 그리고 로그인/로그아웃 기능 구현을 통해 사용자 인증을 경험하면서 제품 상세
+                     페이지에 접근을 제한하는 인증 로직을 적용해 보안의 중요성도 실감할 수 있었습니다. 다양한 컴포넌트
+                     간의 데이터를 연결하며 리액트의 컴포넌트 구조와 Redux 상태 관리의 조화를 이해하게 되었고 UI
+                     스타일링과 반응형 디자인을 통해 사용자 경험을 개선하는 방법을 익혔습니다.
                   </p>
                </div>
             </div>

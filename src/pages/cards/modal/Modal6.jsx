@@ -21,6 +21,17 @@ export default function Modal6({ isOpen, closeModal }) {
                      기술 스택
                   </h2>
                   <p>HTML, CSS, React</p>
+                  <button
+                     className='code'
+                     onClick={() =>
+                        window.open(
+                           'https://github.com/jiyoung79/React_Weather_APP.git',
+                           '_blank',
+                           'noopener,noreferrer',
+                        )
+                     }>
+                     소스코드 보러가기
+                  </button>
                </div>
                <div className='second_line'></div>
                <div className='purpose'>
@@ -58,13 +69,13 @@ export default function Modal6({ isOpen, closeModal }) {
                <div className='closing'>
                   <h3>💡 느낀점</h3>
                   <p>
-                     날씨 앱 프로젝트를 통해 비동기 처리와 위치 기반 API 활용에 대한 이해를 할 수 있었습니다. useEffect의
-                     의존성 배열을 이용해 상태가 변경될 때만 데이터를 호출함으로써 효율적인 렌더링을 구현했고 이를 통해
-                     불필요한 API 호출을 줄일 수 있었습니다. 그리고 navigator.geolocation을 사용해 위치 정보를 받아오는
-                     과정에서 오류 처리 같은 실무적인 부분을 다뤄볼 수 있었습니다. 온도 변환 기능을
+                     날씨 앱 프로젝트를 통해 비동기 처리와 위치 기반 API 활용에 대한 이해를 할 수 있었습니다.
+                     useEffect의 의존성 배열을 이용해 상태가 변경될 때만 데이터를 호출함으로써 효율적인 렌더링을
+                     구현했고 이를 통해 불필요한 API 호출을 줄일 수 있었습니다. 그리고 navigator.geolocation을 사용해
+                     위치 정보를 받아오는 과정에서 오류 처리 같은 실무적인 부분을 다뤄볼 수 있었습니다. 온도 변환 기능을
                      구현하며 연산과 컴포넌트 렌더링을 분리하는 최적화의 중요성을 깨달았고 로딩 스피너로 사용자에게
-                     데이터 로딩 상태를 피드백하여 사용자 경험을 개선하였습니다. 이를 통해 React의 상태
-                     관리와 생명 주기를 보다 효과적으로 다룰 수 있는 능력을 키울 수 있었습니다.
+                     데이터 로딩 상태를 피드백하여 사용자 경험을 개선하였습니다. 이를 통해 React의 상태 관리와 생명
+                     주기를 보다 효과적으로 다룰 수 있는 능력을 키울 수 있었습니다.
                   </p>
                </div>
             </div>

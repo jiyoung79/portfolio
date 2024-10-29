@@ -13,7 +13,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default function Aboutme() {
    return (
-      <div className='aboutme'>
+      <div className='aboutme' id='about-me'>
          <h1 className='title'>About Me</h1>
          <div className='middle_line'></div>
          <div className='boxes'>
