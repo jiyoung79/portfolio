@@ -10,7 +10,7 @@
    margin-top: 30px;
    margin-bottom: 100px;
    font-family: 'Pretendard-Regular';
-    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+   src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
 }
 
 .card .card_title {
@@ -112,3 +112,14 @@
    background-color: green;
    transition: 0.3s ease;
 }
+
+.test {
+   margin-top: 10px;
+   font-weight: bold;
+}
+
+.idpw {
+   line-height: 30px;
+}
+
+

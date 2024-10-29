@@ -48,6 +48,10 @@ export default function Card_1() {
                <a href='https://stayconnect.shop/' target='_blank' rel='noopener noreferrer'>
                   Stay Connect 배포 사이트 방문하기
                </a>
+               <li className='test'>
+                  테스트 데이터
+                  <p className='idpw'>ID : user1 | PW : user1</p>
+               </li>
             </p>
             <button onClick={openModal} className='modal_button'>
                프로젝트 세부사항
