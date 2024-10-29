@@ -43,7 +43,7 @@ export default function Card2() {
                </p>
             </div>
             <p className='url'>
-               <a href='https://netcloneflixkangjiyeong.netlify.app/' target='_blank' rel='noopener noreferrer'>
+               <a href='https://kjynetcloneflix.netlify.app/' target='_blank' rel='noopener noreferrer'>
                   NetFlix 클론코딩 배포 사이트 방문하기
                </a>
             </p>
